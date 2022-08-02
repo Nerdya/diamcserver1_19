@@ -1,5 +1,6 @@
-./cache
-./libraries
-./world
-./world_nether
-./world_the_end
+/cache
+/libraries
+/versions
+/world
+/world_nether
+/world_the_end
