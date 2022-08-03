@@ -1,46 +1,1165 @@
-[20:24:27] [ServerMain/INFO]: Building unoptimized datafixer
-[20:24:28] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:24:28] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[20:24:29] [ServerMain/INFO]: Loaded 7 recipes
-[20:24:30] [Server thread/INFO]: Starting minecraft server version 1.19.1
-[20:24:30] [Server thread/INFO]: Loading properties
-[20:24:30] [Server thread/INFO]: This server is running Paper version git-Paper-102 (MC: 1.19.1) (Implementing API version 1.19.1-R0.1-SNAPSHOT) (Git: e0486ae)
-[20:24:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:24:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:24:30] [Server thread/INFO]: Default game type: SURVIVAL
-[20:24:30] [Server thread/INFO]: Generating keypair
-[20:24:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:24:30] [Server thread/INFO]: Using default channel type
-[20:24:30] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[20:24:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:24:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:24:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:24:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:24:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:24:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:24:30] [Server thread/INFO]: Preparing level "world"
-[20:24:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:24:41] [Server thread/INFO]: Time elapsed: 299 ms
-[20:24:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:24:41] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:24:41] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:24:41] [Server thread/INFO]: Time elapsed: 567 ms
-[20:24:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:24:42] [Server thread/INFO]: Time elapsed: 255 ms
-[20:24:42] [Server thread/INFO]: Running delayed init tasks
-[20:24:42] [Server thread/INFO]: Done (11.697s)! For help, type "help"
-[20:24:42] [Server thread/INFO]: Timings Reset
-[20:24:51] [Server thread/INFO]: Stopping the server
-[20:24:52] [Server thread/INFO]: Stopping server
-[20:24:52] [Server thread/INFO]: Saving players
-[20:24:52] [Server thread/INFO]: Saving worlds
-[20:24:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:24:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:24:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:24:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:24:55] [Server thread/INFO]: Flushing Chunk IO
-[20:24:55] [Server thread/INFO]: Closing Thread Pool
-[20:24:55] [Server thread/INFO]: Closing Server
+[20:32:14] [ServerMain/INFO]: Building unoptimized datafixer
+[20:32:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:32:15] [ServerMain/INFO]: Loaded 7 recipes
+[20:32:16] [Server thread/INFO]: Starting minecraft server version 1.19.1
+[20:32:16] [Server thread/INFO]: Loading properties
+[20:32:16] [Server thread/INFO]: This server is running Paper version git-Paper-102 (MC: 1.19.1) (Implementing API version 1.19.1-R0.1-SNAPSHOT) (Git: e0486ae)
+[20:32:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:32:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:32:16] [Server thread/INFO]: Default game type: SURVIVAL
+[20:32:16] [Server thread/INFO]: Generating keypair
+[20:32:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:32:17] [Server thread/INFO]: Using default channel type
+[20:32:17] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[20:32:17] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:32:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:32:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:32:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:32:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:32:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:32:17] [Server thread/INFO]: Preparing level "world"
+[20:32:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:32:17] [Server thread/INFO]: Time elapsed: 209 ms
+[20:32:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:32:18] [Server thread/INFO]: Time elapsed: 85 ms
+[20:32:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:32:18] [Server thread/INFO]: Time elapsed: 68 ms
+[20:32:18] [Server thread/INFO]: Running delayed init tasks
+[20:32:18] [Server thread/INFO]: Done (1.439s)! For help, type "help"
+[20:32:18] [Server thread/INFO]: Timings Reset
+[20:34:24] [User Authenticator #1/INFO]: UUID of player Fosk9 is 64805358-cd0e-38cd-b1e3-03d208754f6d
+[20:34:24] [Server thread/INFO]: Fosk9 joined the game
+[20:34:24] [Server thread/INFO]: Fosk9[/116.96.45.49:9485] logged in with entity id 189 at ([world]19.5, 67.0, -53.5)
+[20:34:33] [User Authenticator #1/INFO]: UUID of player chican2004 is 23b5e517-0518-3902-bd42-19989c46e9e0
+[20:34:33] [Server thread/INFO]: chican2004 joined the game
+[20:34:33] [Server thread/INFO]: chican2004[/113.190.122.180:51016] logged in with entity id 329 at ([world]11.5, 68.0, -41.5)
+[20:34:50] [Async Chat Thread - #0/INFO]: [Not Secure] <chican2004> ok
+[20:35:04] [Async Chat Thread - #0/INFO]: [Not Secure] <chican2004> ngon
+[20:35:07] [Async Chat Thread - #0/INFO]: [Not Secure] <chican2004> biome vang
+[20:36:46] [User Authenticator #2/INFO]: UUID of player datTRvn is 2d338ecd-a4b8-3873-9473-54df5bd7c0f6
+[20:36:46] [Server thread/INFO]: datTRvn joined the game
+[20:36:46] [Server thread/INFO]: datTRvn[/14.189.91.182:55647] logged in with entity id 846 at ([world]8.5, 68.0, -43.5)
+[20:36:53] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> oke
+[20:37:27] [Async Chat Thread - #2/INFO]: [Not Secure] <Fosk9> biom nhu dam vao dit
+[20:37:31] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> L:))
+[20:37:35] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> :)
+[20:37:52] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> ?n s? ?ây
+[20:37:56] [Server thread/INFO]: Fosk9 has made the advancement [Stone Age]
+[20:38:04] [Server thread/INFO]: Fosk9 has made the advancement [Getting an Upgrade]
+[20:38:09] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> vl
+[20:38:13] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> khong co tp
+[20:38:19] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> heef
+[20:38:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Fosk9> ko co skin luon
+[20:38:46] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> toa do chican la gi
+[20:38:54] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> -250 -250
+[20:39:45] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> gan shader nhin game nhu db
+[20:39:45] [User Authenticator #3/INFO]: UUID of player Dia is 522e7075-ca93-3693-b85f-35ee3efed23c
+[20:39:45] [Server thread/INFO]: Dia joined the game
+[20:39:45] [Server thread/INFO]: Dia[/127.0.0.1:61800] logged in with entity id 2743 at ([world]10.5, 68.0, -53.5)
+[20:39:51] [Async Chat Thread - #2/INFO]: [Not Secure] <Dia> ok
+[20:39:53] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> ok
+[20:40:07] [Async Chat Thread - #2/INFO]: [Not Secure] <Dia> ?
+[20:40:13] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> khu mo bo hoang sat mat dat
+[20:40:16] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> -467 -80
+[20:40:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Dia> 1.19 co ban update vl that
+[20:40:30] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> co cai nit
+[20:40:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Fosk9> hay reset di a
+[20:40:38] [Async Chat Thread - #2/INFO]: [Not Secure] <Fosk9> seed nhu dau b
+[20:40:39] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> :))_)_)()()
+[20:40:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Dia> :)
+[20:41:11] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> biome nhu tien do chi dau
+[20:41:15] [Server thread/INFO]: Dia has made the advancement [Ice Bucket Challenge]
+[20:41:18] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> bioem nayf nhieeuf vangf
+[20:41:21] [Server thread/INFO]: datTRvn hit the ground too hard
+[20:41:27] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> keeep ko e
+[20:41:44] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> lai phai cheat eng roi
+[20:41:51] [Async Chat Thread - #2/INFO]: [Not Secure] <Dia> cai d j vay e :
+[20:41:53] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> :
+[20:41:57] [Async Chat Thread - #2/INFO]: [Not Secure] <Dia> qua riu` vang` mending
+[20:42:00] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> :))))
+[20:42:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Dia> do` early ngon
+[20:42:07] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> reset thoi
+[20:42:16] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> reset di anh dai
+[20:42:20] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> k
+[20:42:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Dia> di ra xa la dc ma?
+[20:42:25] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> biome nay kho qua
+[20:42:26] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> joke day
+[20:42:48] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> dua deo vui
+[20:42:50] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> da cang
+[20:42:54] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> haha
+[20:43:30] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> dia
+[20:43:37] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> cho tp nhu truoc di
+[20:44:13] [Server thread/INFO]: Dia has made the advancement [Monster Hunter]
+[20:44:19] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> gg
+[20:44:30] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> giet tao di
+[20:44:34] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> :))
+[20:44:36] [Server thread/INFO]: datTRvn was slain by Spider
+[20:44:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Fosk9> toan vang voi dong
+[20:44:53] [Async Chat Thread - #2/INFO]: [Not Secure] <Fosk9> deo co sat
+[20:45:03] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> -900 va van la biome
+[20:45:25] [Async Chat Thread - #2/INFO]: [Not Secure] <datTRvn> solo thang enderman e goi = thanh
+[20:45:30] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> ;))
+[20:45:39] [Async Chat Thread - #2/INFO]: [Not Secure] <chican2004> dang ez mode
+[20:46:41] [Async Chat Thread - #4/INFO]: [Not Secure] <datTRvn> cpu 100% gpu 45%
+[20:46:45] [Async Chat Thread - #4/INFO]: [Not Secure] <datTRvn> tuyet voi
+[20:46:46] [Async Chat Thread - #4/INFO]: [Not Secure] <Dia> k co j ak
+[20:46:54] [Async Chat Thread - #4/INFO]: [Not Secure] <chican2004> -1100 là có
+[20:47:01] [Async Chat Thread - #4/INFO]: [Not Secure] <Dia> x hay z
+[20:47:05] [Server thread/INFO]: Fosk9 lost connection: Disconnected
+[20:47:05] [Server thread/INFO]: Fosk9 left the game
+[20:47:05] [Async Chat Thread - #4/INFO]: [Not Secure] <chican2004> x
+[20:47:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Dia> ok e
+[20:47:22] [Async Chat Thread - #4/INFO]: [Not Secure] <chican2004> z 100
+[20:47:28] [Server thread/INFO]: datTRvn has made the advancement [Ice Bucket Challenge]
+[20:47:33] [Async Chat Thread - #4/INFO]: [Not Secure] <datTRvn> gogo
+[20:47:45] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [31, -14], pos: BlockPosition{x=507, y=-42, z=-224}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:large_dripstone]
+[20:48:04] [User Authenticator #4/INFO]: UUID of player Fosk9 is 64805358-cd0e-38cd-b1e3-03d208754f6d
+[20:48:04] [Server thread/INFO]: Fosk9 joined the game
+[20:48:04] [Server thread/INFO]: Fosk9[/116.96.45.49:33452] logged in with entity id 9547 at ([world]116.35760431696973, 33.0, 151.37026478928667)
+[20:48:26] [Server thread/INFO]: Fosk9 lost connection: Disconnected
+[20:48:26] [Server thread/INFO]: Fosk9 left the game
+[20:48:30] [Server thread/INFO]: chican2004 has made the advancement [Monster Hunter]
+[20:49:29] [Server thread/INFO]: chican2004 has made the advancement [Stone Age]
+[20:49:31] [Server thread/INFO]: datTRvn has made the advancement [Monster Hunter]
+[20:49:43] [Async Chat Thread - #6/INFO]: [Not Secure] <datTRvn> an 2 thit thoi ko doi
+[20:49:54] [Async Chat Thread - #6/INFO]: [Not Secure] <Dia> co khu mo
+[20:50:10] [Async Chat Thread - #6/INFO]: [Not Secure] <chican2004> yaiz
+[20:50:13] [Async Chat Thread - #6/INFO]: [Not Secure] <chican2004> ikes
+[20:50:33] [Server thread/INFO]: chican2004 has made the advancement [Getting an Upgrade]
+[20:51:20] [Async Chat Thread - #8/INFO]: [Not Secure] <chican2004> h ms co thuc an
+[20:51:29] [Async Chat Thread - #8/INFO]: [Not Secure] <datTRvn> thit zom
+[20:51:29] [Server thread/INFO]: datTRvn has made the advancement [Stone Age]
+[20:52:06] [Server thread/INFO]: datTRvn has made the advancement [Getting an Upgrade]
+[20:52:12] [Async Chat Thread - #8/INFO]: [Not Secure] <Dia> du`
+[20:52:16] [Async Chat Thread - #8/INFO]: [Not Secure] <Dia> spider spawner
+[20:52:22] [Async Chat Thread - #8/INFO]: [Not Secure] <chican2004> damn
+[20:52:40] [Server thread/INFO]: Dia has made the advancement [Stone Age]
+[20:52:47] [Server thread/INFO]: Dia has made the advancement [Getting an Upgrade]
+[20:54:06] [Async Chat Thread - #10/INFO]: [Not Secure] <datTRvn> bear grylls ma isekai vao biome nay chac chet me luon
+[20:54:16] [Async Chat Thread - #10/INFO]: [Not Secure] <chican2004> :))
+[20:54:20] [Async Chat Thread - #10/INFO]: [Not Secure] <chican2004> con k co thit zom de an
+[20:54:56] [Async Chat Thread - #10/INFO]: [Not Secure] <datTRvn> di chon world nay de moi nguoi kho speedrun
+[20:55:03] [Async Chat Thread - #10/INFO]: [Not Secure] <datTRvn> rat thong minh
+[20:55:05] [Async Chat Thread - #10/INFO]: [Not Secure] <chican2004> th?o nào lâu th?
+[20:55:06] [Async Chat Thread - #10/INFO]: [Not Secure] <Dia> random ma?
+[20:55:17] [Async Chat Thread - #10/INFO]: [Not Secure] <chican2004> :))
+[20:55:21] [Async Chat Thread - #10/INFO]: [Not Secure] <datTRvn> ai tin :D
+[20:55:26] [Async Chat Thread - #10/INFO]: [Not Secure] <chican2004> doocs
+[20:56:41] [Async Chat Thread - #12/INFO]: [Not Secure] <datTRvn> 1945
+[20:57:59] [Async Chat Thread - #14/INFO]: [Not Secure] <chican2004> ocean monument -1238 728
+[20:58:09] [Async Chat Thread - #14/INFO]: [Not Secure] <chican2004> nhin giong
+[20:58:11] [Async Chat Thread - #14/INFO]: [Not Secure] <chican2004> nh ma lam bang cat
+[20:58:22] [Async Chat Thread - #14/INFO]: [Not Secure] <chican2004> chac k phai
+[20:58:28] [Async Chat Thread - #14/INFO]: [Not Secure] <datTRvn> yeah dong bang day roi
+[20:58:31] [Async Chat Thread - #14/INFO]: [Not Secure] <chican2004> ;))
+[20:58:41] [Async Chat Thread - #14/INFO]: [Not Secure] <datTRvn> 2945 1967
+[20:58:46] [Async Chat Thread - #14/INFO]: [Not Secure] <chican2004> vc
+[20:58:48] [Async Chat Thread - #14/INFO]: [Not Secure] <chican2004> nhanh the e
+[21:01:27] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> reset world di a
+[21:01:33] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> isekai gio
+[21:01:42] [Async Chat Thread - #16/INFO]: [Not Secure] <Dia> a de easy ma
+[21:01:48] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> ra dong bang r ma
+[21:01:53] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> ok thu a thoi
+[21:01:58] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> :)
+[21:01:59] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> da lo ban chat
+[21:02:11] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> thi ra chon world nay de ae ko the speedrun
+[21:02:17] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> :))
+[21:02:19] [Async Chat Thread - #16/INFO]: [Not Secure] <Dia> chon j e
+[21:02:24] [Async Chat Thread - #16/INFO]: [Not Secure] <Dia> a cx dang song kho day
+[21:02:51] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> 3 b?n ?? kho báu
+[21:02:54] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> kkkk
+[21:02:58] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> bas t??c
+[21:03:15] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> chiacn
+[21:03:17] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> s e
+[21:03:23] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> thay khu dong bang that roi
+[21:03:26] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> :))
+[21:03:33] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> e chup cho
+[21:03:44] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> a th?y r?ng nhi?t ??i này
+[21:03:47] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> h ?ang ko on mess
+[21:03:49] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> lag
+[21:04:24] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> tropical rainforest -1463 865
+[21:04:59] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> ch? t?o ???c thuy?n có r??ng này
+[21:05:04] [Async Chat Thread - #16/INFO]: [Not Secure] <Dia> khu meza toan` dong` vs vang
+[21:05:08] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> :))
+[21:06:02] [Server thread/INFO]: datTRvn has made the advancement [Sweet Dreams]
+[21:06:04] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> gg
+[21:06:10] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> vl
+[21:06:12] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> :))
+[21:06:15] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> khong duoc kia
+[21:06:21] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> Dia ?? 1 ng??i ng? ?i a
+[21:06:28] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> trong settings world có luôn thì ph?i
+[21:07:03] [Async Chat Thread - #16/INFO]: [Not Secure] <datTRvn> duoc chua
+[21:07:11] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> phai out ra co e
+[21:07:20] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> t?m s?ng qua ?êm
+[21:07:22] [Async Chat Thread - #16/INFO]: [Not Secure] <chican2004> :))
+[21:07:31] [Server thread/INFO]: datTRvn lost connection: Disconnected
+[21:07:31] [Server thread/INFO]: datTRvn left the game
+[21:07:40] [User Authenticator #5/INFO]: UUID of player datTRvn is 2d338ecd-a4b8-3873-9473-54df5bd7c0f6
+[21:07:41] [Server thread/INFO]: datTRvn joined the game
+[21:07:41] [Server thread/INFO]: datTRvn[/14.189.91.182:55693] logged in with entity id 22488 at ([world]464.41958944651725, 74.0, 757.0297702279503)
+[21:07:42] [Async Chat Thread - #16/INFO]: [Not Secure] <Dia> ak
+[21:07:48] [Async Chat Thread - #16/INFO]: [Not Secure] <Dia> chua co plugin r
+[21:08:52] [User Authenticator #6/INFO]: UUID of player Changgguwu is 4824137c-1bc0-3a68-aa02-b5404e12ea2c
+[21:08:52] [Server thread/INFO]: Changgguwu joined the game
+[21:08:52] [Server thread/INFO]: Changgguwu[/123.24.19.72:56603] logged in with entity id 23041 at ([world]10.5, 68.0, -43.5)
+[21:08:56] [Async Chat Thread - #18/INFO]: [Not Secure] <chican2004> 2
+[21:09:00] [Async Chat Thread - #18/INFO]: [Not Secure] <Dia> 2
+[21:09:06] [User Authenticator #6/INFO]: UUID of player Fosk9 is 64805358-cd0e-38cd-b1e3-03d208754f6d
+[21:09:06] [Server thread/INFO]: Fosk9 joined the game
+[21:09:06] [Server thread/INFO]: Fosk9[/116.96.45.49:9340] logged in with entity id 23267 at ([world]116.49751141771223, 33.0, 155.06588362009336)
+[21:09:11] [Async Chat Thread - #18/INFO]: [Not Secure] <chican2004> 3
+[21:09:23] [Async Chat Thread - #18/INFO]: [Not Secure] <Fosk9> cai mai moi xong
+[21:09:37] [Async Chat Thread - #18/INFO]: [Not Secure] <datTRvn> diaaaaaaa
+[21:09:42] [Async Chat Thread - #18/INFO]: [Not Secure] <datTRvn> cho 1 nguoi ngu di
+[21:09:47] [Server thread/INFO]: Fosk9 has made the advancement [Monster Hunter]
+[21:09:51] [Async Chat Thread - #18/INFO]: [Not Secure] <chican2004> de mai e
+[21:10:09] [Async Chat Thread - #18/INFO]: [Not Secure] <datTRvn> de mai la di chuan bi di isekai day
+[21:10:17] [Async Chat Thread - #18/INFO]: [Not Secure] <chican2004> :))
+[21:10:20] [Async Chat Thread - #18/INFO]: [Not Secure] <chican2004> di mine di
+[21:10:23] [Async Chat Thread - #18/INFO]: [Not Secure] <chican2004> nãy a c?ng 1 máu
+[21:10:28] [Async Chat Thread - #18/INFO]: [Not Secure] <datTRvn> nua tim
+[21:10:29] [Async Chat Thread - #18/INFO]: [Not Secure] <Dia> chua co plugin ma e
+[21:10:29] [Async Chat Thread - #18/INFO]: [Not Secure] <chican2004> solo cung v?i zom mà
+[21:10:32] [Async Chat Thread - #18/INFO]: [Not Secure] <Dia> de mai a them
+[21:10:42] [Async Chat Thread - #18/INFO]: [Not Secure] <datTRvn> sang chua
+[21:10:55] [Async Chat Thread - #18/INFO]: [Not Secure] <chican2004> ":))
+[21:11:05] [Async Chat Thread - #18/INFO]: [Not Secure] <Dia> sat day r
+[21:11:06] [Async Chat Thread - #18/INFO]: [Not Secure] <Dia> amen
+[21:11:26] [Async Chat Thread - #18/INFO]: [Not Secure] <datTRvn> toi biet ngay ma
+[21:11:30] [Server thread/INFO]: Dia has made the advancement [Acquire Hardware]
+[21:11:33] [Async Chat Thread - #18/INFO]: [Not Secure] <datTRvn> trong tinh toan roi
+[21:11:33] [Server thread/INFO]: Dia has made the advancement [Isn't It Iron Pick]
+[21:11:40] [Async Chat Thread - #18/INFO]: [Not Secure] <chican2004> ok e
+[21:11:47] [Async Chat Thread - #18/INFO]: [Not Secure] <chican2004> t?ào 1 t? block kho báu m?i hi?n ra
+[21:11:51] [Server thread/INFO]: Fosk9 lost connection: Disconnected
+[21:11:51] [Server thread/INFO]: Fosk9 left the game
+[21:12:00] [Server thread/INFO]: chican2004 has made the advancement [Diamonds!]
+[21:12:01] [Server thread/INFO]: datTRvn was shot by Skeleton
+[21:12:32] [Server thread/INFO]: chican2004 has made the advancement [Acquire Hardware]
+[21:13:03] [Async Chat Thread - #20/INFO]: [Not Secure] <datTRvn> chican toa do
+[21:13:08] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> -1455 930
+[21:13:33] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> vc
+[21:13:39] [Server thread/INFO]: Dia has made the advancement [Take Aim]
+[21:13:43] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> 3 cái b?n ?? ch? h??ng v? cùng 1 cái kho báu
+[21:13:48] [Server thread/INFO]: Dia was shot by Skeleton
+[21:13:51] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> gg
+[21:13:51] [Async Chat Thread - #20/INFO]: [Not Secure] <datTRvn> :))))))
+[21:13:56] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> c? h?i
+[21:13:57] [Async Chat Thread - #20/INFO]: [Not Secure] <Dia> -167 -530
+[21:14:02] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> nhanh Dat
+[21:14:12] [Async Chat Thread - #20/INFO]: [Not Secure] <datTRvn> 300 700
+[21:14:15] [Async Chat Thread - #20/INFO]: [Not Secure] <datTRvn> sao kip
+[21:14:16] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> ok e
+[21:14:18] [User Authenticator #7/INFO]: UUID of player Fosk9 is 64805358-cd0e-38cd-b1e3-03d208754f6d
+[21:14:18] [Server thread/INFO]: Fosk9 joined the game
+[21:14:18] [Server thread/INFO]: Fosk9[/116.96.45.49:20701] logged in with entity id 27640 at ([world]-152.36075795228186, 64.0, 316.69999998807907)
+[21:14:30] [Async Chat Thread - #20/INFO]: [Not Secure] <datTRvn> fosk co may moi met that
+[21:14:35] [Async Chat Thread - #20/INFO]: [Not Secure] <datTRvn> phai cai du thu
+[21:14:44] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> afk
+[21:14:45] [Server thread/INFO]: chican2004 lost connection: Disconnected
+[21:14:45] [Server thread/INFO]: chican2004 left the game
+[21:14:47] [Async Chat Thread - #20/INFO]: [Not Secure] <Fosk9> vua cai mod 1.19.1 xong
+[21:14:51] [Async Chat Thread - #20/INFO]: [Not Secure] <Fosk9> ve 1.19
+[21:14:56] [Async Chat Thread - #20/INFO]: [Not Secure] <Fosk9> roi lai len 1.19.1
+[21:15:01] [Async Chat Thread - #20/INFO]: [Not Secure] <datTRvn> :)
+[21:15:16] [User Authenticator #7/INFO]: UUID of player chican2004 is 23b5e517-0518-3902-bd42-19989c46e9e0
+[21:15:16] [Server thread/INFO]: chican2004 joined the game
+[21:15:16] [Server thread/INFO]: chican2004[/113.190.122.180:51050] logged in with entity id 28719 at ([world]-1446.4160365110172, 61.848836155410844, 971.9616814578183)
+[21:15:24] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> nhanh
+[21:15:25] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> e
+[21:15:42] [Async Chat Thread - #20/INFO]: [Not Secure] <datTRvn> thoi
+[21:15:45] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> :))
+[21:15:49] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> ok e
+[21:15:51] [Async Chat Thread - #20/INFO]: [Not Secure] <datTRvn> e di tim gai 2d day
+[21:15:54] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> ok e
+[21:15:56] [Async Chat Thread - #20/INFO]: [Not Secure] <chican2004> :))
+[21:18:42] [Async Chat Thread - #22/INFO]: [Not Secure] <Dia> may
+[21:18:43] [Async Chat Thread - #22/INFO]: [Not Secure] <Dia> van co do
+[21:18:52] [Async Chat Thread - #22/INFO]: [Not Secure] <chican2004> k co plugin xoa
+[21:18:58] [Async Chat Thread - #22/INFO]: [Not Secure] <datTRvn> gg
+[21:19:06] [Async Chat Thread - #22/INFO]: [Not Secure] <Fosk9> thoi choi optifine cho lanh
+[21:19:07] [Server thread/INFO]: Fosk9 lost connection: Disconnected
+[21:19:07] [Server thread/INFO]: Fosk9 left the game
+[21:19:10] [Async Chat Thread - #22/INFO]: [Not Secure] <datTRvn> :)
+[21:19:20] [Async Chat Thread - #22/INFO]: [Not Secure] <chican2004> :))
+[21:19:22] [Async Chat Thread - #22/INFO]: [Not Secure] <datTRvn> fosk vat va
+[21:19:35] [Async Chat Thread - #22/INFO]: [Not Secure] <chican2004> cant just play normally
+[21:19:43] [Async Chat Thread - #22/INFO]: [Not Secure] <chican2004> afk
+[21:19:44] [Server thread/INFO]: chican2004 lost connection: Disconnected
+[21:19:44] [Server thread/INFO]: chican2004 left the game
+[21:19:50] [User Authenticator #8/INFO]: UUID of player Fosk9 is 64805358-cd0e-38cd-b1e3-03d208754f6d
+[21:19:50] [Server thread/INFO]: Fosk9 joined the game
+[21:19:50] [Server thread/INFO]: Fosk9[/116.96.45.49:31747] logged in with entity id 33681 at ([world]-260.4426334968131, 61.0, 276.2072126547204)
+[21:20:22] [Server thread/INFO]: Fosk9 has made the advancement [Diamonds!]
+[21:20:26] [Async Chat Thread - #22/INFO]: [Not Secure] <Fosk9> damn
+[21:20:33] [User Authenticator #8/INFO]: UUID of player 2m4kun is 6d9a88f5-32c6-3dc1-9940-20c021efd684
+[21:20:33] [Server thread/INFO]: 2m4kun joined the game
+[21:20:33] [Server thread/INFO]: 2m4kun[/192.168.1.1:59873] logged in with entity id 34221 at ([world]6.5, 68.0, -40.5)
+[21:20:37] [Async Chat Thread - #22/INFO]: [Not Secure] <datTRvn> 3
+[21:20:43] [Async Chat Thread - #22/INFO]: [Not Secure] <2m4kun> 4
+[21:20:55] [Async Chat Thread - #22/INFO]: [Not Secure] <Fosk9> co kim cuong nhung ko co sat
+[21:20:58] [Async Chat Thread - #22/INFO]: [Not Secure] <2m4kun> fucking asshole
+[21:21:05] [Async Chat Thread - #22/INFO]: [Not Secure] <2m4kun> hmm
+[21:21:09] [Async Chat Thread - #22/INFO]: [Not Secure] <2m4kun> ko bi censor
+[21:21:19] [Async Chat Thread - #22/INFO]: [Not Secure] <2m4kun> chac tai minh choi lau
+[21:21:34] [Async Chat Thread - #22/INFO]: [Not Secure] <Fosk9> vcl
+[21:21:36] [Async Chat Thread - #22/INFO]: [Not Secure] <Fosk9> 1 cuc sat
+[21:21:36] [Async Chat Thread - #22/INFO]: [Not Secure] <2m4kun> mn chay dau r
+[21:21:49] [Async Chat Thread - #22/INFO]: [Not Secure] <datTRvn> 92 1216
+[21:22:03] [Async Chat Thread - #22/INFO]: [Not Secure] <2m4kun> spawn dep ghe
+[21:22:11] [Async Chat Thread - #22/INFO]: [Not Secure] <2m4kun> sap toi
+[21:22:22] [Async Chat Thread - #22/INFO]: [Not Secure] <datTRvn> dia co tinh de moi nguoi khong the speedrun
+[21:22:27] [Async Chat Thread - #22/INFO]: [Not Secure] <2m4kun> ko 1 cay go soi
+[21:22:38] [User Authenticator #9/INFO]: UUID of player chican2004 is 23b5e517-0518-3902-bd42-19989c46e9e0
+[21:22:38] [Server thread/INFO]: chican2004 joined the game
+[21:22:38] [Server thread/INFO]: chican2004[/113.190.122.180:51062] logged in with entity id 36164 at ([world]-1532.6689610046153, 71.0, 1035.0759964078495)
+[21:22:41] [Async Chat Thread - #22/INFO]: [Not Secure] <Fosk9> anti speedrun seed
+[21:22:42] [Async Chat Thread - #22/INFO]: [Not Secure] <2m4kun> yoo
+[21:22:42] [Async Chat Thread - #22/INFO]: [Not Secure] <datTRvn> 4
+[21:22:45] [Async Chat Thread - #22/INFO]: [Not Secure] <chican2004> 5
+[21:23:33] [Server thread/INFO]: Changgguwu has made the advancement [Stone Age]
+[21:24:06] [Server thread/INFO]: Fosk9 has made the advancement [Acquire Hardware]
+[21:24:13] [Server thread/INFO]: Changgguwu has made the advancement [Getting an Upgrade]
+[21:24:18] [Server thread/INFO]: Fosk9 has made the advancement [Isn't It Iron Pick]
+[21:26:02] [Server thread/INFO]: Dia has made the advancement [Hot Stuff]
+[21:26:11] [Async Chat Thread - #24/INFO]: [Not Secure] <datTRvn> hmm
+[21:26:15] [Async Chat Thread - #24/INFO]: [Not Secure] <chican2004> k
+[21:26:17] [Async Chat Thread - #24/INFO]: [Not Secure] <chican2004> chuan bi
+[21:26:20] [Async Chat Thread - #24/INFO]: [Not Secure] <chican2004> vao nether
+[21:26:40] [Async Chat Thread - #24/INFO]: [Not Secure] <datTRvn> evil
+[21:26:56] [Async Chat Thread - #24/INFO]: [Not Secure] <chican2004> dcm
+[21:26:59] [Async Chat Thread - #24/INFO]: [Not Secure] <chican2004> tao vang ecnthant
+[21:27:33] [Server thread/INFO]: datTRvn lost connection: Disconnected
+[21:27:33] [Server thread/INFO]: datTRvn left the game
+[21:27:34] [Server thread/INFO]: chican2004 has made the advancement [Isn't It Iron Pick]
+[21:28:44] [User Authenticator #10/INFO]: UUID of player datTRvn is 2d338ecd-a4b8-3873-9473-54df5bd7c0f6
+[21:28:44] [Server thread/INFO]: datTRvn joined the game
+[21:28:44] [Server thread/INFO]: datTRvn[/14.189.91.182:57236] logged in with entity id 42825 at ([world]56.30000001192093, 92.0, 1640.5605719952846)
+[21:29:10] [Async Chat Thread - #26/INFO]: [Not Secure] <datTRvn> vl may
+[21:29:15] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> ;)()
+[21:29:17] [Async Chat Thread - #26/INFO]: [Not Secure] <datTRvn> khong bat shader thi lag
+[21:29:22] [Async Chat Thread - #26/INFO]: [Not Secure] <datTRvn> ao v
+[21:29:26] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> ?
+[21:29:33] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> máy l?
+[21:29:47] [Async Chat Thread - #26/INFO]: [Not Secure] <Dia> amethyst va calcite de lam j nhi
+[21:30:00] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> amethyst ch?c làm ?ng kính
+[21:30:03] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> kinhs vi?n v?ng
+[21:30:24] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> can xi ?
+[21:30:32] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> Ca 40
+[21:30:41] [Server thread/INFO]: datTRvn lost connection: Disconnected
+[21:30:41] [Server thread/INFO]: datTRvn left the game
+[21:30:45] [User Authenticator #11/INFO]: UUID of player datTRvn is 2d338ecd-a4b8-3873-9473-54df5bd7c0f6
+[21:30:45] [Server thread/INFO]: datTRvn joined the game
+[21:30:45] [Server thread/INFO]: datTRvn[/14.189.91.182:57249] logged in with entity id 45017 at ([world]56.69999998807907, 92.0, 1640.300000011921)
+[21:30:48] [Server thread/INFO]: datTRvn lost connection: Disconnected
+[21:30:48] [Server thread/INFO]: datTRvn left the game
+[21:30:49] [Async Chat Thread - #26/INFO]: [Not Secure] <Fosk9> co keep ko Dia
+[21:30:53] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> k
+[21:30:54] [Async Chat Thread - #26/INFO]: [Not Secure] <Dia> ko
+[21:30:56] [Async Chat Thread - #26/INFO]: [Not Secure] <Dia> a vua chet
+[21:31:02] [Async Chat Thread - #26/INFO]: [Not Secure] <Dia> phai chay 5p nhat lai do ma
+[21:31:04] [Async Chat Thread - #26/INFO]: [Not Secure] <2m4kun> nah
+[21:31:09] [Async Chat Thread - #26/INFO]: [Not Secure] <2m4kun> pro gaymer
+[21:31:13] [Async Chat Thread - #26/INFO]: [Not Secure] <2m4kun> no keepinven
+[21:31:22] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> ko cahd
+[21:31:41] [Server thread/INFO]: 2m4kun issued server command: /msg dia fuck u
+[21:31:56] [User Authenticator #12/INFO]: UUID of player datTRvn is 2d338ecd-a4b8-3873-9473-54df5bd7c0f6
+[21:31:56] [Server thread/INFO]: datTRvn joined the game
+[21:31:56] [Server thread/INFO]: datTRvn[/14.189.91.182:57269] logged in with entity id 46058 at ([world]56.69999998807907, 92.0, 1640.300000011921)
+[21:31:58] [Async Chat Thread - #26/INFO]: [Not Secure] <Fosk9> ko keep nhung game mode easy
+[21:32:22] [Async Chat Thread - #26/INFO]: [Not Secure] <2m4kun> the tang len
+[21:32:43] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> bro cant even fight warden
+[21:32:52] [Async Chat Thread - #26/INFO]: [Not Secure] <Fosk9> lenh tang kieu gi
+[21:33:04] [Async Chat Thread - #26/INFO]: [Not Secure] <chican2004> ./@Dia
+[21:33:11] [Server thread/INFO]: 2m4kun has made the advancement [Stone Age]
+[21:33:34] [Server thread/INFO]: Fosk9 has made the advancement [Not Today, Thank You]
+[21:34:48] [Async Chat Thread - #28/INFO]: [Not Secure] <chican2004> mlem
+[21:35:46] [Server thread/INFO]: Changgguwu has made the advancement [Acquire Hardware]
+[21:36:10] [Server thread/INFO]: Changgguwu has made the advancement [Isn't It Iron Pick]
+[21:36:37] [Server thread/INFO]: 2m4kun has made the advancement [Getting an Upgrade]
+[21:36:56] [Server thread/INFO]: Changgguwu has made the advancement [Monster Hunter]
+[21:38:15] [Server thread/INFO]: Fosk9 has made the advancement [Suit Up]
+[21:38:19] [Server thread/INFO]: Dia was shot by Skeleton
+[21:38:21] [Async Chat Thread - #30/INFO]: [Not Secure] <2m4kun> thoat ra cai optifine
+[21:38:22] [Async Chat Thread - #30/INFO]: [Not Secure] <chican2004> gg
+[21:38:23] [Async Chat Thread - #30/INFO]: [Not Secure] <chican2004> gggg
+[21:38:23] [Server thread/INFO]: 2m4kun lost connection: Disconnected
+[21:38:23] [Server thread/INFO]: 2m4kun left the game
+[21:38:37] [Server thread/INFO]: datTRvn fell from a high place
+[21:38:37] [Server thread/INFO]: Dia issued server command: /tp ~ -530
+[21:38:42] [Server thread/INFO]: chican2004 issued server command: /tell datTRvn -2162 111 2543 làng anh
+[21:38:42] [Server thread/INFO]: Dia issued server command: /tp -239 ~ -530
+[21:38:42] [Server thread/INFO]: [Dia: Teleported Dia to -238.500000, 64.000000, -529.500000]
+[21:38:42] [Server thread/WARN]: Dia moved too quickly! -261.93075627222663,0.0,-474.99102812843273
+[21:38:47] [Server thread/INFO]: Dia issued server command: /tp -239 80 -530
+[21:38:47] [Server thread/INFO]: [Dia: Teleported Dia to -238.500000, 80.000000, -529.500000]
+[21:38:49] [Async Chat Thread - #30/INFO]: [Not Secure] <datTRvn> ok
+[21:38:52] [User Authenticator #13/INFO]: UUID of player 2m4kun is 6d9a88f5-32c6-3dc1-9940-20c021efd684
+[21:38:52] [Server thread/INFO]: 2m4kun joined the game
+[21:38:52] [Server thread/INFO]: 2m4kun[/192.168.1.1:59949] logged in with entity id 53424 at ([world]-275.54792446152834, 60.0, -587.7404242527554)
+[21:38:54] [Server thread/INFO]: Dia suffocated in a wall
+[21:38:56] [Server thread/INFO]: datTRvn fell from a high place
+[21:38:59] [Async Chat Thread - #30/INFO]: [Not Secure] <chican2004> :)))
+[21:39:07] [Async Chat Thread - #30/INFO]: [Not Secure] <2m4kun> oi
+[21:39:09] [Async Chat Thread - #30/INFO]: [Not Secure] <2m4kun> sao lai
+[21:39:12] [Async Chat Thread - #30/INFO]: [Not Secure] <2m4kun> nhuc nha the
+[21:39:13] [Async Chat Thread - #30/INFO]: [Not Secure] <chican2004> suffer
+[21:39:42] [Server thread/INFO]: datTRvn has made the advancement [Take Aim]
+[21:40:04] [Server thread/INFO]: Dia issued server command: /gamemode spectator
+[21:40:04] [Server thread/INFO]: [Dia: Set own game mode to Spectator Mode]
+[21:40:06] [Server thread/INFO]: Dia issued server command: /tp -239 80 -530
+[21:40:06] [Server thread/INFO]: [Dia: Teleported Dia to -238.500000, 80.000000, -529.500000]
+[21:40:06] [Server thread/WARN]: Dia moved too quickly! -220.74463039048635,14.190513258107913,-198.6540128803435
+[21:40:10] [Server thread/INFO]: Fosk9 issued server command: /difficulty normal
+[21:40:10] [Server thread/INFO]: [Fosk9: The difficulty has been set to Normal]
+[21:40:20] [Server thread/INFO]: Dia issued server command: /gamemode survival
+[21:40:20] [Server thread/INFO]: [Dia: Set own game mode to Survival Mode]
+[21:40:42] [Async Chat Thread - #32/INFO]: [Not Secure] <Fosk9> Dia nhan ra chua de-op >
+[21:40:45] [Server thread/INFO]: 2m4kun has made the advancement [Monster Hunter]
+[21:40:49] [Async Chat Thread - #32/INFO]: [Not Secure] <chican2004> :)))
+[21:40:55] [Async Chat Thread - #32/INFO]: [Not Secure] <Dia> :)
+[21:40:58] [Async Chat Thread - #32/INFO]: [Not Secure] <2m4kun> dia ga`
+[21:41:41] [Async Chat Thread - #32/INFO]: [Not Secure] <Fosk9> nguoi full do sat r
+[21:41:43] [Async Chat Thread - #32/INFO]: [Not Secure] <Fosk9> do so r
+[21:41:47] [Async Chat Thread - #32/INFO]: [Not Secure] <chican2004> cung kinh
+[21:41:58] [Async Chat Thread - #32/INFO]: [Not Secure] <2m4kun> creeper no ngay tai cho van chet
+[21:42:02] [Async Chat Thread - #32/INFO]: [Not Secure] <Fosk9> the co cup kc chua
+[21:42:02] [Async Chat Thread - #32/INFO]: [Not Secure] <datTRvn> ngan fosk voi dia
+[21:42:16] [Async Chat Thread - #32/INFO]: [Not Secure] <chican2004> :))
+[21:42:29] [Async Chat Thread - #32/INFO]: [Not Secure] <2m4kun> nhieu vang vcl
+[21:42:44] [Server thread/INFO]: 2m4kun has made the advancement [Acquire Hardware]
+[21:43:10] [Async Chat Thread - #32/INFO]: [Not Secure] <Fosk9> bat dau thich seed nay r day
+[21:43:15] [Async Chat Thread - #32/INFO]: [Not Secure] <2m4kun> chac lay sat dao vang
+[21:43:21] [Async Chat Thread - #32/INFO]: [Not Secure] <2m4kun> r lm cuoc vang mat
+[21:43:22] [Server thread/INFO]: Villager EntityVillager['Nitwit'/49060, uuid='3c24fc91-4370-468e-a531-892d196a0c9b', l='ServerLevel[world]', x=-2118.43, y=111.00, z=2539.30, cpos=[-133, 158], tl=10380, v=true] died, message: 'Nitwit was slain by Zombie'
+[21:43:26] [Async Chat Thread - #32/INFO]: [Not Secure] <chican2004> damn bro dao tao vang
+[21:43:29] [Async Chat Thread - #32/INFO]: [Not Secure] <2m4kun> damn
+[21:43:43] [Server thread/INFO]: 2m4kun has made the advancement [Isn't It Iron Pick]
+[21:43:58] [Server thread/INFO]: datTRvn fell from a high place
+[21:44:00] [Async Chat Thread - #32/INFO]: [Not Secure] <2m4kun> chican funnie
+[21:44:02] [Async Chat Thread - #32/INFO]: [Not Secure] <datTRvn> ffff
+[21:44:07] [Async Chat Thread - #32/INFO]: [Not Secure] <2m4kun> xd
+[21:44:08] [Async Chat Thread - #32/INFO]: [Not Secure] <2m4kun> f
+[21:44:10] [Async Chat Thread - #32/INFO]: [Not Secure] <chican2004> ok
+[21:44:18] [Server thread/INFO]: chican2004 has made the advancement [Sweet Dreams]
+[21:45:33] [Async Chat Thread - #34/INFO]: [Not Secure] <datTRvn> to cao tin nhan = tlaucher
+[21:45:37] [Async Chat Thread - #34/INFO]: [Not Secure] <datTRvn> hmm
+[21:45:39] [Server thread/INFO]: datTRvn has made the advancement [Acquire Hardware]
+[21:45:44] [Async Chat Thread - #34/INFO]: [Not Secure] <Fosk9> ti thi chet
+[21:45:46] [Async Chat Thread - #34/INFO]: [Not Secure] <chican2004> la s e
+[21:45:48] [Async Chat Thread - #34/INFO]: [Not Secure] <Fosk9> dcm con creeper
+[21:45:50] [Server thread/INFO]: datTRvn has made the advancement [Isn't It Iron Pick]
+[21:45:54] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> :b
+[21:46:01] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> minh phan nhu than
+[21:46:04] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> de xem nao
+[21:46:07] [Async Chat Thread - #34/INFO]: [Not Secure] <chican2004> mom thoi
+[21:46:08] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> so phan cua minh se la
+[21:46:21] [Server thread/INFO]: datTRvn has made the advancement [Suit Up]
+[21:46:24] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> chet boi 1 con creeper drop tu tren troi xuong
+[21:46:33] [Async Chat Thread - #34/INFO]: [Not Secure] <chican2004> Cuong megistus
+[21:46:34] [Async Chat Thread - #34/INFO]: [Not Secure] <Fosk9> em ti thi bi the day
+[21:46:35] [Async Chat Thread - #34/INFO]: [Not Secure] <datTRvn> quan iran
+[21:46:47] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> xd
+[21:46:54] [Server thread/INFO]: chican2004 has made the advancement [A Seedy Place]
+[21:47:07] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> chican choi stardew valley a
+[21:47:13] [Async Chat Thread - #34/INFO]: [Not Secure] <datTRvn> chican chat lai toa do di
+[21:47:13] [Async Chat Thread - #34/INFO]: [Not Secure] <chican2004> uk a
+[21:47:20] [Server thread/INFO]: chican2004 issued server command: /tell datTRvn -2162 111 2543 làng anh
+[21:47:28] [Server thread/INFO]: chican2004 issued server command: /tell datTRvn be mom thoi e
+[21:47:30] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> chill v
+[21:47:38] [Async Chat Thread - #34/INFO]: [Not Secure] <chican2004> e tim thay
+[21:47:39] [Server thread/INFO]: Dia issued server command: /deop Fosk9
+[21:47:39] [Server thread/INFO]: [Dia: Made Fosk9 no longer a server operator]
+[21:47:40] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> trong khi ae h nay duoi hang tim kc het
+[21:47:40] [Async Chat Thread - #34/INFO]: [Not Secure] <chican2004> nha
+[21:47:44] [Server thread/INFO]: Dia issued server command: /gamemode spectator
+[21:47:44] [Server thread/INFO]: [Dia: Set own game mode to Spectator Mode]
+[21:47:45] [Async Chat Thread - #34/INFO]: [Not Secure] <datTRvn> den khong co gi thi chican isekai
+[21:47:50] [Async Chat Thread - #34/INFO]: [Not Secure] <chican2004> heef
+[21:48:03] [Server thread/INFO]: Dia issued server command: /gamemode survival
+[21:48:03] [Server thread/INFO]: [Dia: Set own game mode to Survival Mode]
+[21:48:05] [Async Chat Thread - #34/INFO]: [Not Secure] <chican2004> e thay kc r nen la
+[21:48:27] [Async Chat Thread - #34/INFO]: [Not Secure] <datTRvn> dang chat
+[21:48:30] [Async Chat Thread - #34/INFO]: [Not Secure] <datTRvn> may kip
+[21:48:35] [Async Chat Thread - #34/INFO]: [Not Secure] <datTRvn> creeper khon nan
+[21:48:54] [Server thread/INFO]: Villager EntityVillager['Villager'/49192, uuid='c7d31fc0-0d8f-4621-8936-53b115b94385', l='ServerLevel[world]', x=-2118.38, y=111.00, z=2533.15, cpos=[-133, 158], tl=16970, v=true] died, message: 'Villager was slain by Zombie'
+[21:48:57] [Server thread/INFO]: datTRvn issued server command: /
+[21:49:01] [Server thread/INFO]: Dia has made the advancement [Suit Up]
+[21:49:01] [Server thread/INFO]: Villager EntityVillager['Villager'/49190, uuid='a58bdb9a-8f32-4015-a54f-fed578f39070', l='ServerLevel[world]', x=-2120.85, y=111.00, z=2533.15, cpos=[-133, 158], tl=17110, v=true] died, message: 'Villager was slain by Zombie'
+[21:49:15] [Server thread/INFO]: Villager EntityVillager['Villager'/49191, uuid='76665f0d-af8a-4cc9-84f5-1be1b3af6d92', l='ServerLevel[world]', x=-2120.85, y=111.00, z=2533.21, cpos=[-133, 158], tl=17376, v=true] died, message: 'Villager was slain by Zombie'
+[21:49:30] [Async Chat Thread - #34/INFO]: [Not Secure] <datTRvn> lo giet vua minecraft
+[21:49:36] [Async Chat Thread - #34/INFO]: [Not Secure] <chican2004> :D
+[21:50:36] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> huh
+[21:50:37] [Server thread/INFO]: Fosk9 has made the advancement [Ice Bucket Challenge]
+[21:50:42] [Async Chat Thread - #34/INFO]: [Not Secure] <2m4kun> 1 enderman ko biet tp
+[21:51:31] [Server thread/INFO]: Changgguwu has made the advancement [Suit Up]
+[21:51:57] [Server thread/INFO]: datTRvn has made the advancement [Not Today, Thank You]
+[21:52:00] [Server thread/INFO]: datTRvn has made the advancement [Voluntary Exile]
+[21:52:06] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> du
+[21:52:06] [Server thread/INFO]: 2m4kun has made the advancement [Not Today, Thank You]
+[21:52:12] [Async Chat Thread - #36/INFO]: [Not Secure] <datTRvn> ko allay
+[21:52:15] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> YES
+[21:52:15] [Async Chat Thread - #36/INFO]: [Not Secure] <datTRvn> dm
+[21:52:23] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> skele spawner
+[21:52:26] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> fuck yea
+[21:52:40] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> ok gs
+[21:52:45] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> im ric
+[21:53:15] [Async Chat Thread - #36/INFO]: [Not Secure] <Fosk9> chao ae
+[21:53:18] [Async Chat Thread - #36/INFO]: [Not Secure] <Fosk9> toi xuong thanh hoa
+[21:53:20] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> 2
+[21:53:23] [Server thread/INFO]: Fosk9 has made the advancement [We Need to Go Deeper]
+[21:53:23] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> lmao
+[21:53:51] [Async Chat Thread - #36/INFO]: [Not Secure] <datTRvn> xuong hai phong an hoa cai
+[21:54:03] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> :))
+[21:54:03] [Server thread/INFO]: Fosk9 has made the advancement [Hot Stuff]
+[21:54:19] [Async Chat Thread - #36/INFO]: [Not Secure] <Fosk9> YOOOOOOOO
+[21:54:26] [Async Chat Thread - #36/INFO]: [Not Secure] <Fosk9> CO CAI TOA THANH NGAY DAY
+[21:54:26] [Server thread/INFO]: 2m4kun has made the advancement [Suit Up]
+[21:54:34] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> noice
+[21:54:50] [Async Chat Thread - #36/INFO]: [Not Secure] <Fosk9> gonna speedrun
+[21:55:12] [Async Chat Thread - #36/INFO]: [Not Secure] <datTRvn> fosk lo xem duong404
+[21:55:17] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> t co the thay no
+[21:55:19] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> dung v
+[21:55:24] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> cai chet cua fosk
+[21:55:26] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> ok
+[21:55:39] [Server thread/INFO]: Fosk9 burned to death
+[21:55:40] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> se la bi 1 thang nigga hiep dam
+[21:55:42] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> dm
+[21:55:44] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> oi vl
+[21:55:44] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> :))
+[21:55:45] [Async Chat Thread - #36/INFO]: [Not Secure] <Fosk9> man fuck u
+[21:55:48] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> ?o th?t ?áy
+[21:55:48] [Async Chat Thread - #36/INFO]: [Not Secure] <Dia> lol
+[21:55:51] [Async Chat Thread - #36/INFO]: [Not Secure] <datTRvn> bat kho di dia
+[21:55:57] [Async Chat Thread - #36/INFO]: [Not Secure] <Fosk9> mat me cup kc r
+[21:56:00] [Async Chat Thread - #36/INFO]: [Not Secure] <Fosk9> anyway
+[21:56:01] [Async Chat Thread - #36/INFO]: [Not Secure] <datTRvn> anh di danh mat ban sac server a
+[21:56:06] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> lmaooo
+[21:57:06] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> co nen tien tri lay tien ko nhi
+[21:57:18] [Async Chat Thread - #36/INFO]: [Not Secure] <datTRvn> co
+[21:57:18] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> cha nhe tien tri so de
+[21:57:22] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> :)
+[21:57:27] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> hmm
+[21:57:32] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> phai tien tri
+[21:57:37] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> con toi co tro ve ko
+[21:57:41] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> minh se lay dc thao than va dehya
+[21:57:41] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> nguoi ay co yeu toi ko
+[21:57:50] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> ok
+[21:57:50] [Async Chat Thread - #36/INFO]: [Not Secure] <2m4kun> ;-;
+[21:57:59] [Async Chat Thread - #36/INFO]: [Not Secure] <datTRvn> tha rang nguoi hay noi the
+[21:58:09] [Async Chat Thread - #36/INFO]: [Not Secure] <datTRvn> de anh quay lung buoc di
+[21:58:16] [Async Chat Thread - #36/INFO]: [Not Secure] <chican2004> oke
+[22:00:24] [Server thread/INFO]: 2m4kun has made the advancement [Hot Stuff]
+[22:02:51] [Async Chat Thread - #38/INFO]: [Not Secure] <Fosk9> yess
+[22:02:54] [Async Chat Thread - #38/INFO]: [Not Secure] <Fosk9> jungle
+[22:03:10] [Async Chat Thread - #38/INFO]: [Not Secure] <chican2004> son
+[22:05:16] [Server thread/WARN]: Changgguwu moved wrongly!
+[22:05:19] [Server thread/INFO]: Fosk9 was shot by Skeleton
+[22:05:23] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> f
+[22:05:25] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> f
+[22:06:09] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> ducvucat vo speedrun cho
+[22:06:21] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> ?
+[22:06:44] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> bao ducvucat vo sppedrun
+[22:06:46] [Server thread/INFO]: Changgguwu was slain by Zombie
+[22:06:49] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> f
+[22:06:50] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> who
+[22:06:51] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> f
+[22:06:57] [Server thread/INFO]: Changgguwu has made the advancement [Sweet Dreams]
+[22:07:11] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> day roi
+[22:07:14] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> :))
+[22:07:18] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> nha nghi day roiw
+[22:07:31] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> vlllll
+[22:07:32] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> a dang di mine ti
+[22:07:37] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> xam luoc
+[22:07:39] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> dmmmmm
+[22:07:39] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> dm e
+[22:07:40] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> dmmm
+[22:07:45] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> tuong e chet r
+[22:07:51] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> sheesh
+[22:07:54] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> doi ti a quay lai
+[22:08:11] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> ngu di
+[22:08:12] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> nhanh]
+[22:08:20] [Async Chat Thread - #40/INFO]: [Not Secure] <Fosk9> khong em
+[22:08:30] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> dung lay giuoing cua a
+[22:08:31] [Server thread/INFO]: Dia has made the advancement [Sweet Dreams]
+[22:08:36] [Server thread/INFO]: Villager EntityVillager['Farmer'/49062, uuid='309ae411-7f4a-42f6-a647-411a47a31b56', l='ServerLevel[world]', x=-2154.88, y=113.00, z=2544.60, cpos=[-135, 159], tl=40660, v=true] died, message: 'Farmer was shot by Pillager'
+[22:08:52] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> golem xuat t
+[22:08:57] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> tinh
+[22:08:58] [Server thread/INFO]: 2m4kun has made the advancement [Sweet Dreams]
+[22:09:14] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> xuat trien
+[22:09:16] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> :))
+[22:09:38] [Server thread/INFO]: chican2004 has made the advancement [Voluntary Exile]
+[22:10:04] [Server thread/INFO]: chican2004 was shot by Pillager
+[22:10:09] [Async Chat Thread - #40/INFO]: [Not Secure] <2m4kun> vc
+[22:10:11] [Async Chat Thread - #40/INFO]: [Not Secure] <2m4kun> cai nay
+[22:10:15] [Async Chat Thread - #40/INFO]: [Not Secure] <2m4kun> t chua tinh den
+[22:10:22] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> :)))
+[22:10:24] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> l? r
+[22:10:45] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> lo gi a
+[22:10:49] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> kcj
+[22:10:56] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> ko l? to? ?? là ?c
+[22:11:02] [Server thread/INFO]: datTRvn was poked to death by a sweet berry bush
+[22:11:06] [Async Chat Thread - #40/INFO]: [Not Secure] <chican2004> :))))
+[22:11:08] [Async Chat Thread - #40/INFO]: [Not Secure] <datTRvn> vll
+[22:11:08] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:11:13] [Async Chat Thread - #40/INFO]: [Not Secure] <2m4kun> vl
+[22:11:16] [Async Chat Thread - #40/INFO]: [Not Secure] <2m4kun> can cuu tro k
+[22:11:21] [Server thread/INFO]: datTRvn was blown up by Creeper
+[22:11:26] [Server thread/INFO]: chican2004 was shot by Pillager
+[22:12:04] [Server thread/INFO]: datTRvn was slain by Ravager
+[22:12:08] [Server thread/INFO]: Dia has made the advancement [Tactical Fishing]
+[22:12:20] [Async Chat Thread - #42/INFO]: [Not Secure] <chican2004> stardew
+[22:12:25] [Server thread/INFO]: datTRvn was slain by Ravager
+[22:12:25] [Server thread/INFO]: Villager EntityVillager['Nitwit'/49189, uuid='4ee816b7-0263-4fd7-8248-4a578d91c827', l='ServerLevel[world]', x=-2118.70, y=111.00, z=2539.30, cpos=[-133, 158], tl=45182, v=true] died, message: 'Nitwit was slain by Vindicator'
+[22:12:49] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:12:53] [Server thread/INFO]: datTRvn was slain by Ravager
+[22:13:01] [Async Chat Thread - #42/INFO]: [Not Secure] <datTRvn> dmmmmmmm
+[22:14:19] [Server thread/INFO]: chican2004 was shot by Pillager
+[22:14:23] [Server thread/INFO]: datTRvn was slain by Vindicator
+[22:14:33] [Server thread/INFO]: chican2004 was slain by Vindicator
+[22:14:37] [Async Chat Thread - #44/INFO]: [Not Secure] <2m4kun> kho zam qua
+[22:14:48] [Async Chat Thread - #44/INFO]: [Not Secure] <chican2004> :)
+[22:14:52] [Server thread/INFO]: chican2004 was slain by Vindicator
+[22:15:19] [Async Chat Thread - #44/INFO]: [Not Secure] <datTRvn> elden ring mc
+[22:15:27] [Server thread/INFO]: datTRvn was slain by Vindicator
+[22:15:34] [Server thread/INFO]: chican2004 was slain by Vindicator
+[22:16:04] [Async Chat Thread - #44/INFO]: [Not Secure] <datTRvn> :)
+[22:16:07] [Async Chat Thread - #44/INFO]: [Not Secure] <chican2004> :))
+[22:16:29] [Server thread/INFO]: chican2004 was slain by Vindicator
+[22:17:25] [Async Chat Thread - #46/INFO]: [Not Secure] <chican2004> nha co bien
+[22:17:27] [Async Chat Thread - #46/INFO]: [Not Secure] <chican2004> danh not ho e\
+[22:17:31] [Server thread/INFO]: datTRvn fell from a high place
+[22:17:32] [Async Chat Thread - #46/INFO]: [Not Secure] <chican2004> a
+[22:17:36] [Async Chat Thread - #46/INFO]: [Not Secure] <chican2004> shit
+[22:17:42] [Async Chat Thread - #46/INFO]: [Not Secure] <chican2004> thang evolker den r a
+[22:17:47] [Server thread/INFO]: chican2004 was slain by Vindicator
+[22:18:11] [Server thread/INFO]: datTRvn was slain by Ravager
+[22:18:56] [Server thread/INFO]: datTRvn was slain by Ravager
+[22:19:35] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:19:36] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> ca`n a sang giup k
+[22:19:38] [Server thread/INFO]: datTRvn was slain by Ravager
+[22:19:40] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> no
+[22:19:44] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> gg e
+[22:19:44] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> ok
+[22:19:46] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:19:52] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> kho than
+[22:19:53] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:19:56] [Server thread/INFO]: datTRvn was slain by Ravager
+[22:19:59] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:19:59] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> :)
+[22:20:02] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> :))))))
+[22:20:07] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:20:12] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:20:18] [Server thread/INFO]: datTRvn was slain by Ravager
+[22:20:18] [Server thread/INFO]: chican2004 has made the advancement [Suit Up]
+[22:20:22] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:20:28] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:20:33] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:20:41] [Server thread/INFO]: chican2004 was slain by Ravager
+[22:20:50] [Server thread/INFO]: datTRvn was slain by Ravager
+[22:20:57] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> dark souls
+[22:21:22] [Server thread/INFO]: chican2004 has completed the challenge [Hero of the Village]
+[22:21:22] [Server thread/INFO]: datTRvn has completed the challenge [Hero of the Village]
+[22:21:25] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> gg
+[22:21:27] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> gg
+[22:21:30] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> gg
+[22:21:48] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> cat do e
+[22:21:50] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> day
+[22:21:51] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> nha day
+[22:22:09] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> chet het me dan lang :)
+[22:22:12] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> :))
+[22:22:12] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> vl
+[22:22:23] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> vc
+[22:22:25] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> not gg
+[22:22:30] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> pha hoai
+[22:22:36] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> :))
+[22:22:37] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> a con dua tre con
+[22:22:43] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> du
+[22:22:50] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> tim` xem
+[22:22:56] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> con 2 dua con` hi vong
+[22:23:00] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> 3 nguoi song sot ke lai
+[22:23:07] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> ngon
+[22:23:15] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> 1 thang da dem den tai hoa va toi phai giam gia do cho no
+[22:23:23] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> bat cong
+[22:23:52] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> nay e
+[22:24:00] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> cái ??y l?y ?âu ?áy
+[22:24:03] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> phee th?
+[22:24:06] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> thap canh
+[22:24:09] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> ak ok
+[22:24:34] [Server thread/INFO]: datTRvn has made the advancement [Diamonds!]
+[22:25:07] [Async Chat Thread - #48/INFO]: [Not Secure] <Fosk9> yoo
+[22:25:11] [Async Chat Thread - #48/INFO]: [Not Secure] <Fosk9> i found deep dark
+[22:25:16] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> noice
+[22:25:25] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> dau long 2 a to nga
+[22:25:26] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> depression biome
+[22:25:43] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> fosk vao deep dark fosk thanh dark meme
+[22:25:52] [Async Chat Thread - #48/INFO]: [Not Secure] <Fosk9> deep dark co loot gi ngon k nhi
+[22:25:57] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> khong
+[22:26:08] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> co cai an shit duoc tang toc di
+[22:26:14] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> du
+[22:26:14] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> shift
+[22:26:28] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> mine o dau day
+[22:26:31] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> day
+[22:26:37] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> :)
+[22:26:39] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> o dau
+[22:26:45] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> ve nha
+[22:27:19] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> fosk
+[22:27:20] [Async Chat Thread - #48/INFO]: [Not Secure] <2m4kun> same
+[22:27:27] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> mua quyen truyen 25k
+[22:27:34] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> doc 30p het me ca quyen
+[22:27:40] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> phi tien v
+[22:27:54] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> cho ti
+[22:28:14] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> dang cho e uong thuoc]
+[22:28:33] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> :v
+[22:28:39] [Server thread/INFO]: Dia has made the advancement [Diamonds!]
+[22:28:46] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> f
+[22:28:49] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> theo a
+[22:29:05] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> im
+[22:29:18] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> im good
+[22:29:35] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> dung phi cai do
+[22:30:04] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> dau roi
+[22:30:07] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> nhay
+[22:30:56] [Async Chat Thread - #48/INFO]: [Not Secure] <datTRvn> sau nhu tim e
+[22:31:09] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> :))))
+[22:31:12] [Async Chat Thread - #48/INFO]: [Not Secure] <chican2004> afk ti
+[22:32:25] [Server thread/INFO]: Dia has made the advancement [Sneak 100]
+[22:32:30] [Async Chat Thread - #50/INFO]: [Not Secure] <datTRvn> gg
+[22:32:38] [Async Chat Thread - #50/INFO]: [Not Secure] <chican2004> gg
+[22:32:40] [Async Chat Thread - #50/INFO]: [Not Secure] <2m4kun> bruh
+[22:32:48] [Async Chat Thread - #50/INFO]: [Not Secure] <datTRvn> lmao
+[22:33:07] [Async Chat Thread - #50/INFO]: [Not Secure] <chican2004> hang r a
+[22:33:11] [Server thread/INFO]: Changgguwu has made the advancement [Best Friends Forever]
+[22:33:21] [Async Chat Thread - #50/INFO]: [Not Secure] <2m4kun> awww
+[22:33:27] [Async Chat Thread - #50/INFO]: [Not Secure] <datTRvn> tim duong den tim e
+[22:33:36] [Async Chat Thread - #50/INFO]: [Not Secure] <chican2004> heef
+[22:33:39] [Async Chat Thread - #50/INFO]: [Not Secure] <chican2004> :)))
+[22:33:41] [Async Chat Thread - #50/INFO]: [Not Secure] <datTRvn> tang bao nhieu la nhieu kim cuong day
+[22:33:44] [Async Chat Thread - #50/INFO]: [Not Secure] <chican2004> 11
+[22:33:53] [Async Chat Thread - #50/INFO]: [Not Secure] <2m4kun> -42y
+[22:33:58] [Async Chat Thread - #50/INFO]: [Not Secure] <2m4kun> chua thay kc
+[22:33:59] [Async Chat Thread - #50/INFO]: [Not Secure] <2m4kun> hic
+[22:34:01] [Async Chat Thread - #50/INFO]: [Not Secure] <chican2004> lol
+[22:34:22] [Server thread/INFO]: chican2004 was shot by Skeleton
+[22:34:24] [Async Chat Thread - #50/INFO]: [Not Secure] <chican2004> f
+[22:34:25] [Async Chat Thread - #50/INFO]: [Not Secure] <2m4kun> lmao
+[22:34:26] [Async Chat Thread - #50/INFO]: [Not Secure] <datTRvn> fosk voi dia lien minh roi
+[22:34:38] [Async Chat Thread - #50/INFO]: [Not Secure] <Fosk9> ?
+[22:36:22] [Async Chat Thread - #52/INFO]: [Not Secure] <2m4kun> lan sau dao kc
+[22:36:29] [Async Chat Thread - #52/INFO]: [Not Secure] <2m4kun> chac phai lm lo thuoc nhin dem
+[22:36:31] [Async Chat Thread - #52/INFO]: [Not Secure] <datTRvn> dung tool thoi
+[22:36:33] [Async Chat Thread - #52/INFO]: [Not Secure] <2m4kun> dau mat qua
+[22:36:37] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> gamma
+[22:36:58] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> ma a chua chinh dc
+[22:37:01] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> truoc chinh ma k dc
+[22:37:02] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> ;)
+[22:37:21] [Async Chat Thread - #52/INFO]: [Not Secure] <datTRvn> nhin e dung cheat eng hack kc day nay
+[22:37:32] [Async Chat Thread - #52/INFO]: [Not Secure] <datTRvn> doi e cai da
+[22:37:36] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> :)
+[22:37:43] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> co nit
+[22:37:47] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> chac la ghost diamond
+[22:38:09] [Async Chat Thread - #52/INFO]: [Not Secure] <datTRvn> tin e
+[22:38:15] [Async Chat Thread - #52/INFO]: [Not Secure] <datTRvn> chi can dia khong ban
+[22:38:21] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> multi thì ch?c k ?c
+[22:38:23] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> singel thì ?c
+[22:38:32] [Server thread/INFO]: 2m4kun has made the advancement [Sneak 100]
+[22:38:35] [Async Chat Thread - #52/INFO]: [Not Secure] <datTRvn> ok
+[22:38:40] [Async Chat Thread - #52/INFO]: [Not Secure] <datTRvn> 15p nua
+[22:38:43] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> ok e
+[22:38:54] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> tr??c a ch?i th?i lo?n zingme
+[22:39:06] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> co thu r
+[22:39:13] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> ghost thoi
+[22:39:41] [Async Chat Thread - #52/INFO]: [Not Secure] <chican2004> e test tren sv chua
+[22:42:09] [Server thread/INFO]: 2m4kun has made the advancement [Diamonds!]
+[22:42:17] [Async Chat Thread - #54/INFO]: [Not Secure] <datTRvn> gg
+[22:42:20] [Async Chat Thread - #54/INFO]: [Not Secure] <chican2004> gg
+[22:42:24] [Async Chat Thread - #54/INFO]: [Not Secure] <2m4kun> nah
+[22:42:29] [Async Chat Thread - #54/INFO]: [Not Secure] <2m4kun> kc cua dia
+[22:44:00] [Async Chat Thread - #56/INFO]: [Not Secure] <Fosk9> oh no
+[22:44:18] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> ?
+[22:44:30] [Async Chat Thread - #56/INFO]: [Not Secure] <Fosk9> Dia pls give me 1 Dark Oak Planks
+[22:44:49] [Async Chat Thread - #56/INFO]: [Not Secure] <Fosk9> i'm stuck in middle of stone and dont have anything else
+[22:45:05] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> nho den 1 tua phim
+[22:45:10] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> thoi dam da di e
+[22:45:13] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> hoi lau ti
+[22:45:17] [Async Chat Thread - #56/INFO]: [Not Secure] <Fosk9> em tang 29 a
+[22:45:21] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> xd
+[22:45:27] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> ko co xo nuoc a
+[22:45:29] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> boi len
+[22:45:43] [Async Chat Thread - #56/INFO]: [Not Secure] <Fosk9> xung quanh em toan da
+[22:45:59] [Async Chat Thread - #56/INFO]: [Not Secure] <chican2004> ./kill
+[22:45:59] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> faito
+[22:46:04] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> neva give up
+[22:46:13] [Async Chat Thread - #56/INFO]: [Not Secure] <chican2004> :))
+[22:46:17] [Async Chat Thread - #56/INFO]: [Not Secure] <chican2004> trigger DIa
+[22:46:19] [Async Chat Thread - #56/INFO]: [Not Secure] <Fosk9> YESSSSSS
+[22:46:20] [Server thread/INFO]: Dia lost connection: Disconnected
+[22:46:20] [Server thread/INFO]: Dia left the game
+[22:46:21] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> dont become dia
+[22:46:24] [Async Chat Thread - #56/INFO]: [Not Secure] <2m4kun> dia ga`
+[22:46:53] [Async Chat Thread - #56/INFO]: [Not Secure] <chican2004> ai ngu day
+[22:48:01] [Async Chat Thread - #58/INFO]: [Not Secure] <Fosk9> may qya
+[22:48:55] [Async Chat Thread - #58/INFO]: [Not Secure] <Fosk9> Dia ga
+[22:48:57] [Async Chat Thread - #58/INFO]: [Not Secure] <Fosk9> hah
+[22:49:05] [Async Chat Thread - #58/INFO]: [Not Secure] <2m4kun> yup
+[22:49:08] [Async Chat Thread - #58/INFO]: [Not Secure] <2m4kun> dats mah boi
+[22:49:15] [Server thread/INFO]: [Not Secure] [Server] tam` 11h hon a tat sv nhe
+[22:49:37] [Async Chat Thread - #58/INFO]: [Not Secure] <datTRvn> nay thi dia ga
+[22:49:43] [Async Chat Thread - #58/INFO]: [Not Secure] <chican2004> :)))
+[22:50:07] [Async Chat Thread - #58/INFO]: [Not Secure] <Fosk9> tau dam
+[22:50:15] [Async Chat Thread - #58/INFO]: [Not Secure] <chican2004> cx manh
+[22:50:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-102 (MC: 1.19.1) ---
+[22:50:28] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[22:50:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:50:28] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[22:50:28] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[22:50:28] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[22:50:28] [Paper Watchdog Thread/ERROR]: Entity UUID: 64805358-cd0e-38cd-b1e3-03d208754f6d
+[22:50:28] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (240.30000001192093, 49.0, -1455.512499988079)
+[22:50:28] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[22:50:28] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[240.0, 49.0, -1455.8125] -> [240.60000002384186, 50.799999952316284, -1455.2124999761581]
+[22:50:28] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 782646
+[22:50:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:50:28] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[22:50:28] [Paper Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: false | State: TIMED_WAITING
+[22:50:28] [Paper Watchdog Thread/ERROR]: 	Stack:
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:148)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:661)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:503)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.LevelReader.getChunk(LevelReader.java:134)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:490)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:453)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:382)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1899)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4272/0x00000008014cb8c8.apply(Unknown Source)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6054/0x0000000801b28000.accept(Unknown Source)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1505)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1033)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:569)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1970)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$6200/0x0000000801b67348.run(Unknown Source)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1359)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:185)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1336)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1329)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1307)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1195)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4372/0x000000080150b478.run(Unknown Source)
+[22:50:28] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[22:50:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:50:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[22:50:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:50:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-102 (MC: 1.19.1) ---
+[22:50:33] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[22:50:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:50:33] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[22:50:33] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk wait task info below: 
+[22:50:33] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] 20,-140 in 'world:
+[22:50:33] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Load Task - none
+[22:50:33] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Save Task - none
+[22:50:33] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder - non-null
+[22:50:33] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Status - minecraft:structure_starts
+[22:50:33] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Ticket Status - minecraft:structure_starts
+[22:50:33] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Status - minecraft:structure_starts
+[22:50:33] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Priority - 2
+[22:50:33] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[22:50:33] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[22:50:33] [Paper Watchdog Thread/ERROR]: Entity UUID: 64805358-cd0e-38cd-b1e3-03d208754f6d
+[22:50:33] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (240.30000001192093, 49.0, -1455.512499988079)
+[22:50:33] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[22:50:33] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[240.0, 49.0, -1455.8125] -> [240.60000002384186, 50.799999952316284, -1455.2124999761581]
+[22:50:33] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 782646
+[22:50:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:50:33] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[22:50:33] [Paper Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: false | State: RUNNABLE
+[22:50:33] [Paper Watchdog Thread/ERROR]: 	Stack:
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.Objects.hashCode(Objects.java:103)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000800e4f400.invoke(LambdaForm$MH)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000800e50400.invoke(LambdaForm$MH)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000800e50400.invoke(LambdaForm$MH)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000800e50400.invoke(LambdaForm$MH)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000800e50400.invoke(LambdaForm$MH)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000800e50400.invoke(LambdaForm$MH)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000800e50800.linkToTargetMethod(LambdaForm$MH)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise.hashCode(DensityFunctions.java:985)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.Objects.hashCode(Objects.java:103)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000800e4f400.invoke(LambdaForm$MH)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000800e50400.invoke(LambdaForm$MH)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000800e50800.linkToTargetMethod(LambdaForm$MH)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Marker.type(DensityFunctions.java:679)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.HashMap.hash(HashMap.java:338)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.HashMap.computeIfAbsent(HashMap.java:1191)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.wrap(NoiseChunk.java:335)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda$5755/0x0000000801aa99b0.apply(Unknown Source)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.mapAll(DensityFunctions.java:1106)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.lambda$mapAll$0(DensityFunctions.java:1053)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$w$$Lambda$4882/0x00000008016ed7c0.visit(Unknown Source)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$4883/0x00000008016ed9e0.apply(Unknown Source)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$4883/0x00000008016ed9e0.apply(Unknown Source)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1052)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:647)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:603)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:886)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:386)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:647)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:603)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:132)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:174)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:124)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:908)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:99)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:92)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:84)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$7254/0x0000000801cd6588.get(Unknown Source)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:496)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:83)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:166)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:483)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:453)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:382)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1899)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4272/0x00000008014cb8c8.apply(Unknown Source)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6054/0x0000000801b28000.accept(Unknown Source)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1505)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1033)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:569)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1970)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$6200/0x0000000801b67348.run(Unknown Source)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1359)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:185)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1336)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1329)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1307)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1195)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4372/0x000000080150b478.run(Unknown Source)
+[22:50:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[22:50:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:50:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[22:50:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:50:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16411ms or 328 ticks behind
+[22:50:34] [Server thread/WARN]: datTRvn moved too quickly! 34.20349926868403,0.0,-16.889383000269845
+[22:50:43] [Async Chat Thread - #58/INFO]: [Not Secure] <datTRvn> chican co osidian chua
+[22:50:46] [Async Chat Thread - #58/INFO]: [Not Secure] <chican2004> chua e
+[22:51:00] [Async Chat Thread - #58/INFO]: [Not Secure] <datTRvn> dao 4 cuc encahnt di
+[22:51:06] [Server thread/INFO]: Changgguwu has made the advancement [Not Today, Thank You]
+[22:51:07] [Async Chat Thread - #58/INFO]: [Not Secure] <chican2004> h chua co kc
+[22:51:32] [Async Chat Thread - #58/INFO]: [Not Secure] <datTRvn> e co 6n cuc
+[22:52:11] [Async Chat Thread - #58/INFO]: [Not Secure] <datTRvn> ve dat lai hoi sinh di a
+[22:52:16] [Async Chat Thread - #58/INFO]: [Not Secure] <chican2004> :)
+[22:52:17] [Async Chat Thread - #58/INFO]: [Not Secure] <chican2004> :)
+[22:52:21] [Async Chat Thread - #58/INFO]: [Not Secure] <datTRvn> e lo an vao diuong a roi
+[22:52:25] [Async Chat Thread - #58/INFO]: [Not Secure] <chican2004> ok e
+[22:53:11] [Async Chat Thread - #58/INFO]: [Not Secure] <chican2004> m?c phát sáng xuyên t??ng
+[22:54:47] [Async Chat Thread - #60/INFO]: [Not Secure] <Fosk9> tau dam
+[22:54:57] [Async Chat Thread - #60/INFO]: [Not Secure] <chican2004> ;))
+[22:55:23] [Async Chat Thread - #60/INFO]: [Not Secure] <Fosk9> rac vc
+[22:56:00] [Server thread/INFO]: datTRvn has made the advancement [Hot Stuff]
+[22:56:27] [Async Chat Thread - #62/INFO]: [Not Secure] <chican2004> a e bao con may dan lang
+[22:57:19] [Server thread/INFO]: 2m4kun has made the advancement [Ice Bucket Challenge]
+[23:02:19] [Server thread/INFO]: datTRvn has made the advancement [Enchanter]
+[23:02:39] [Async Chat Thread - #64/INFO]: [Not Secure] <chican2004> nhanh dayu
+[23:02:44] [Server thread/INFO]: datTRvn has made the advancement [Cover Me with Diamonds]
+[23:02:50] [Async Chat Thread - #64/INFO]: [Not Secure] <2m4kun> pog
+[23:02:52] [Async Chat Thread - #64/INFO]: [Not Secure] <datTRvn> gg
+[23:02:56] [Async Chat Thread - #64/INFO]: [Not Secure] <chican2004> vc
+[23:03:03] [Async Chat Thread - #64/INFO]: [Not Secure] <2m4kun> minh ga` vl
+[23:03:18] [Async Chat Thread - #64/INFO]: [Not Secure] <datTRvn> cat vo ruong day
+[23:03:20] [Async Chat Thread - #64/INFO]: [Not Secure] <chican2004> u late cumers
+[23:03:30] [Async Chat Thread - #64/INFO]: [Not Secure] <2m4kun> pog
+[23:03:34] [Async Chat Thread - #64/INFO]: [Not Secure] <2m4kun> vua ms noi xong
+[23:03:36] [Async Chat Thread - #64/INFO]: [Not Secure] <2m4kun> thay kc r
+[23:03:37] [Async Chat Thread - #64/INFO]: [Not Secure] <chican2004> :))
+[23:03:58] [Async Chat Thread - #64/INFO]: [Not Secure] <2m4kun> 1 vien bo
+[23:04:01] [Async Chat Thread - #64/INFO]: [Not Secure] <2m4kun> hic
+[23:04:02] [Async Chat Thread - #64/INFO]: [Not Secure] <chican2004> :))
+[23:05:01] [Server thread/INFO]: datTRvn has made the advancement [We Need to Go Deeper]
+[23:05:06] [Async Chat Thread - #66/INFO]: [Not Secure] <datTRvn> gg
+[23:05:58] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> lam kc the e
+[23:05:59] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> vl
+[23:06:00] [Async Chat Thread - #66/INFO]: [Not Secure] <datTRvn> neu e dang nhap = ten dia thi sao nhi
+[23:06:06] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> :b
+[23:06:07] [Server thread/INFO]: Fosk9 was impaled by Drowned
+[23:06:09] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> dung`
+[23:06:10] [Server thread/INFO]: chican2004 issued server command: /tell datTRvn noi be thoi
+[23:06:11] [Async Chat Thread - #66/INFO]: [Not Secure] <datTRvn> :)
+[23:06:12] [Async Chat Thread - #66/INFO]: [Not Secure] <Fosk9> Fuckkkk
+[23:06:12] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> oi vl
+[23:06:14] [Server thread/INFO]: chican2004 issued server command: /tell datTRvn noi be thoi
+[23:06:14] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> rip
+[23:06:16] [Async Chat Thread - #66/INFO]: [Not Secure] <Fosk9> xa vcl
+[23:06:18] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> f
+[23:06:20] [Async Chat Thread - #66/INFO]: [Not Secure] <Fosk9> thoi nghi
+[23:06:23] [Server thread/INFO]: Fosk9 lost connection: Disconnected
+[23:06:23] [Server thread/INFO]: Fosk9 left the game
+[23:06:25] [Async Chat Thread - #66/INFO]: [Not Secure] <datTRvn> ok vo acc dia
+[23:06:26] [Server thread/INFO]: datTRvn lost connection: Disconnected
+[23:06:26] [Server thread/INFO]: datTRvn left the game
+[23:06:28] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> :b
+[23:06:28] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> :)
+[23:06:33] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> tu?i tr?
+[23:06:39] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> nos s? ti?p b??c con ???ng e
+[23:07:07] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> h cai tro dao theo hinh xuong ca con y nghia ko nhi
+[23:07:20] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> van the a
+[23:07:25] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> nhung h meta la hang
+[23:07:28] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> hang nhieu kc
+[23:07:30] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> :b
+[23:07:40] [Server thread/INFO]: chican2004 has made the advancement [Not Today, Thank You]
+[23:07:43] [User Authenticator #14/INFO]: UUID of player Dia is 522e7075-ca93-3693-b85f-35ee3efed23c
+[23:07:43] [Server thread/INFO]: Dia joined the game
+[23:07:43] [Server thread/INFO]: Dia[/14.189.91.182:59529] logged in with entity id 134876 at ([world]-163.505283902725, -17.0, -461.30000001192093)
+[23:07:48] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> yo
+[23:07:49] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> vl e oi
+[23:07:51] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> thhoi
+[23:07:53] [Async Chat Thread - #66/INFO]: [Not Secure] <Dia> yeah
+[23:07:57] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> ?
+[23:07:59] [Async Chat Thread - #66/INFO]: [Not Secure] <Dia> quyen nang bat diet
+[23:08:02] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> wait
+[23:08:06] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> ak uk ko co mat khau
+[23:08:08] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> quen
+[23:08:09] [Server thread/INFO]: chican2004 was slain by Zombie
+[23:08:13] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> lmao
+[23:08:26] [Async Chat Thread - #66/INFO]: [Not Secure] <2m4kun> thoat ra di e
+[23:08:38] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> e vô t?i nhé Dia
+[23:08:43] [Async Chat Thread - #66/INFO]: [Not Secure] <chican2004> e ko h? b?o nó làm th?
+[23:08:47] [Server thread/INFO]: chican2004 lost connection: Disconnected
+[23:08:47] [Server thread/INFO]: chican2004 left the game
+[23:08:48] [Server thread/INFO]: Dia lost connection: Disconnected
+[23:08:48] [Server thread/INFO]: Dia left the game
+[23:10:26] [Async Chat Thread - #68/INFO]: [Not Secure] <2m4kun> o
+[23:10:31] [Async Chat Thread - #68/INFO]: [Not Secure] <2m4kun> changg van day a
+[23:11:45] [Async Chat Thread - #70/INFO]: [Not Secure] <Changgguwu> o con co 2 ng thoi a
+[23:11:50] [Async Chat Thread - #70/INFO]: [Not Secure] <2m4kun> :b
+[23:11:55] [Async Chat Thread - #70/INFO]: [Not Secure] <2m4kun> fosk ragequit r
+[23:12:12] [Async Chat Thread - #70/INFO]: [Not Secure] <Changgguwu> e cx dinh out bay h, lam xong cai nha 1 ng r
+[23:12:18] [Async Chat Thread - #70/INFO]: [Not Secure] <2m4kun> yah
+[23:12:24] [Async Chat Thread - #70/INFO]: [Not Secure] <2m4kun> 2 dua di dau r
+[23:12:35] [Async Chat Thread - #70/INFO]: [Not Secure] <Changgguwu> ai a?
+[23:12:39] [Async Chat Thread - #70/INFO]: [Not Secure] <2m4kun> khi nao a den xem nha dc k
+[23:13:02] [Async Chat Thread - #70/INFO]: [Not Secure] <Changgguwu> nha 1 ng thoi, nha tam thoi
+[23:13:09] [Async Chat Thread - #70/INFO]: [Not Secure] <Changgguwu> nha e, ke me fosk
+[23:13:25] [Async Chat Thread - #70/INFO]: [Not Secure] <2m4kun> a ok
+[23:13:29] [Async Chat Thread - #70/INFO]: [Not Secure] <2m4kun> xd
+[23:13:42] [Async Chat Thread - #70/INFO]: [Not Secure] <Changgguwu> :3 thoi chac em off day
+[23:13:48] [Async Chat Thread - #70/INFO]: [Not Secure] <2m4kun> yah
+[23:13:49] [Async Chat Thread - #70/INFO]: [Not Secure] <2m4kun> gn
+[23:13:53] [Async Chat Thread - #70/INFO]: [Not Secure] <Changgguwu> gn
+[23:13:56] [Server thread/INFO]: Changgguwu lost connection: Disconnected
+[23:13:56] [Server thread/INFO]: Changgguwu left the game
+[23:14:23] [Server thread/INFO]: There are 1 of a max of 20 players online: 2m4kun
+[23:23:06] [Server thread/INFO]: 2m4kun lost connection: Disconnected
+[23:23:06] [Server thread/INFO]: 2m4kun left the game
+[23:23:14] [Server thread/INFO]: Stopping the server
+[23:23:14] [Server thread/INFO]: Stopping server
+[23:23:14] [Server thread/INFO]: Saving players
+[23:23:14] [Server thread/INFO]: Saving worlds
+[23:23:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:23:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:23:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:23:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:23:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:23:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:23:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:23:17] [Server thread/INFO]: Flushing Chunk IO
+[23:23:17] [Server thread/INFO]: Closing Thread Pool
+[23:23:17] [Server thread/INFO]: Closing Server
